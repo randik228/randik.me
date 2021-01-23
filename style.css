@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+        overflow-x:hidden;
+}
+.menu{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    opacity: 0.8;
+}
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    color: black;
+    padding: 3px;
+}
+.menu a:hover{
+    background-color: #ccc;
+}
+/*Здесь хедер*/
+
+
+.header{
+    text-align: center;
+    background-image: url(img/polygons.png);
+    padding:500px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: snow;
+    font-size: 20px;
+    background-attachment: fixed;
+}
+.header h1{
+    margin-top: -150px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+.header p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.header a:hover{
+    background-color: #ccc;
+}
+/* блое about */
+
+
+#about img{
+    width: 400px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+#about p{
+    text-align: justify;
+    padding-left: 100px;
+    width: 700px;
+}
+#about{
+    width: 70%;
+    margin: 0 auto;
+}
+#about img, #about p{
+    display: inline-block;
+}
+#about h2{
+    text-align: center;
+}
+/* блое team*/
+
+
+.rabotnik{
+    display: inline-block;
+    width: 20%;
+    margin: 20px;
+    border: 1px solid #c6c6c6;
+    padding: 20px;
+    box-shadow: 0 2px 5px #c6c6c6;
+    text-align: left;
+    
+}
+.rabotnik img{
+    width: 100%;
+}
+#team{
+    text-align: center;
+}
+.rabotnik .position{
+    opacity: 0.5;
+}
+.rabotnik a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #055b73;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+.rabotnik .team_text{
+    height: 80px;
+}
+.rabotnik a:hover{
+    opacity: 0.8;
+}
+/* Тарыф */
+
+
+
+.paket li{
+    list-style: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 0;
+    background-color: white;
+}
+.paket .name{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 30px 0;
+}
+.paket .name_blue{
+        background-color: #055b73;
+    color: white;
+    font-size: 25px;
+    padding: 40px 0;
+}
+.paket{
+    display: inline-block;
+    width: 30%;
+    padding: 0;
+    margin: 10px;
+    vertical-align: middle;
+}
+#tarif{
+    background-color: #616161;
+    text-align: center;
+    padding: 50px 0;
+}
+span{
+    font-weight: bold;
+}
+.in_day{
+    opacity: 0.4;
+    color: black;
+}
+.paket a{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px 25px;
+    
+}
+.paket a:hover{
+    opacity: 0.8;
+}
+.paket li:last-child{
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+.tariff .tarif_text{
+    color: white;
+}
+/* contact */
+
+
+#contact{
+    background-color: #f1f1f1;
+    margin-top: -25px;
+    padding: 50px 0;
+    text-align: center;
+}
+.contactt .geo{
+    background-image: url(img/address.png);
+}
+
+.contactt .email{
+    background-image: url(img/mail.png);
+}
+.contactt .telefon{
+    background-image: url(img/phone.png);
+}
+.info{
+    background-repeat: no-repeat;
+    background-size: 18px;
+    text-align: left;
+    padding-left: 25px;
+    margin-left: 5%;
+}
+.contactt input{
+    text-align: left;
+    padding: 10px;
+    width: 90%;
+    border: none;
+}
+.contactt button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contactt button:hover{
+    opacity: 0.75;
+}
+/* footer */
+
+
+
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+
